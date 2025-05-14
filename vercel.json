@@ -1,0 +1,25 @@
+
+{
+  "headers": [
+    {
+      "source": "/.well-known/apple-app-site-association", // 精确匹配文件的路径
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json" // 设置 Content-Type 为 application/json
+        }
+      ]
+    }
+    // 如果你还需要支持根目录下的文件（不推荐，但可选）
+    // {
+    //   "source": "/apple-app-site-association",
+    //   "headers": [
+    //     {
+    //       "key": "Content-Type",
+    //       "value": "application/json"
+    //     }
+    //   ]
+    // }
+  ]
+  // 你可能在此文件中有其他的 Vercel 配置 (如 rewrites, redirects, etc.)
+}
