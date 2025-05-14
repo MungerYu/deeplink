@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "MAH9A473F7.com.plantTest.www",
+                "paths": ["/event/*"]
+            }
+        ]
+    }
+}
